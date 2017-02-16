@@ -1,0 +1,214 @@
+
+
+body { 
+background-image: url('http://i.imgur.com/9rr6dPy.png');
+background-color: beige;
+font-weight: bold;
+}
+
+.green, .red, .blue, .yellow { 
+position:relative;
+height: 220px;
+width:220px;
+display:inline-block;
+
+left: 11%;
+
+}
+
+.lvlt { 
+font-size: 200%;
+color: #DC0D25;
+}
+.green, .yellow { 
+border-right: 15px solid #1B1D1E;
+}
+.red, .blue { 
+border-left: 15px solid #1B1D1E;
+}
+.pad { 
+opacity: 0.6;
+}
+.green, .red { 
+margin-top: 4%;
+top: 25px;
+}
+.yellow, .blue { 
+margin-top: -50%;
+}
+
+
+.green { 
+background-color: green;
+border-top-left-radius: 100%;
+
+}
+
+
+.red { 
+background-color: red;
+border-top-right-radius: 100%;
+}
+
+.yellow { 
+background-color: yellow;
+border-bottom-left-radius: 100%;
+}
+
+.blue { 
+background-color: blue;
+border-bottom-right-radius: 100%;
+}
+
+.circle { 
+
+position: relative;
+border: 2px solid black;
+height: 575px;
+width:575px;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+ border-radius: 50%;
+
+background-color: #1A1C1D;
+}
+
+
+.minic { 
+position:relative;
+height: 250px;
+width: 250px;
+border: 12px solid #1A1C1D;
+-moz-border-radius: 100%;
+border-radius: 100%;
+background-color: #ECE7EE;
+text-align: center;
+bottom: 15%;
+z-index: 1;
+}
+
+.minic div { 
+padding: 0 10px;
+}
+
+.countc { 
+background-color: #3F050D;
+border: 4px solid #1A1C1D;
+height:50px;
+width: 50px;
+margin-left: 10px;
+border-radius: 20px;
+
+}
+.count, .start, .strict { 
+display: inline-block;
+}
+
+.startc, .strictc { 
+border: 4px solid #1A1C1D;
+
+height: 30px;
+width: 30px;
+border-radius: 15px;
+ 
+}
+
+.startc { 
+background-color: red;
+}
+
+.offonc { 
+border: 2px solid black;
+height: 30px;
+width: 60px;
+border-radius: 10%;
+background-color: #1A1C1D;
+}
+
+.strictc { 
+  background-color: yellow;
+}
+
+.strictd { 
+
+border: 2px solid black;
+height: 6px;
+width: 6px;
+border-radius: 100%;
+margin:auto;
+background-color: #3F050D;
+
+
+}
+
+.grna, .reda, .yella, .bluea { 
+display:none;
+}
+
+.title { 
+font-size: 300%;
+font-weight:bold;
+font-family: "Fira-Sans";
+}
+
+.offb { 
+position:relative;
+background-color:#3FBFFF;
+height:25px;
+width:30px;
+border:2px solid black;
+left: -9px;
+
+}
+
+.countT { 
+color: #B21E1E;
+margin-top: 3px;
+font-size: 1.5em;
+}
+
+@media only screen and (max-width: 500px)
+{
+  .circle
+  {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+   
+  }
+  
+  .green, .red { 
+  display:inline-block;
+  margin-top:20px;
+  }
+  
+  .yellow, .blue { 
+    top: 30px;
+  }
+  
+  .pad { 
+  width: 150px;
+  height: 200px;
+  left: 13%;
+  }
+  
+  .minic { 
+  position:relative;
+  width: 175px;
+  height: 175px;
+  margin-top: 12px;
+  }
+  /* fix */
+ 
+  
+ .minic div { 
+padding: 0;
+}
+  .title { 
+    
+  font-size: 200%;
+    
+  } 
+  
+
+}
